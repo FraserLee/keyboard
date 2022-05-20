@@ -1,0 +1,175 @@
+[
+  {
+    "switchMount": "cherry",
+    "switchBrand": "cherry",
+    "switchType": "MX1A-C1xx",
+    "plate": true,
+    "pcb": false
+  },
+  [
+    {
+      "c": "#d91e1e",
+      "p": "DSA",
+      "a": 7,
+      "f": 8
+    },
+    "<i class='mss mss-Unicode-Escape-3'></i>",
+    {
+      "c": "#cccccc",
+      "f": 5
+    },
+    "Q",
+    "W",
+    "E",
+    "R",
+    "T",
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P",
+    {
+      "c": "#919191",
+      "f": 6,
+      "w": 1.75
+    },
+    "<i class='mss mss-Unicode-BackSpace-DeleteLeft-Big-2'></i>"
+  ],
+  [
+    {
+      "f": 7,
+      "w": 1.25
+    },
+    "<i class='kb kb-Line-End'></i>",
+    {
+      "c": "#cccccc",
+      "f": 5
+    },
+    "A",
+    "S",
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L",
+    {
+      "a": 5
+    },
+    ":\n;",
+    {
+      "c": "#0c9cc7",
+      "a": 7,
+      "f": 6,
+      "w": 1.5
+    },
+    "<i class='kb kb-Return-2'></i>"
+  ],
+  [
+    {
+      "c": "#919191",
+      "f": 7,
+      "w": 1.75
+    },
+    "<i class='fa fa-angle-double-up'></i>",
+    {
+      "c": "#cccccc",
+      "f": 5
+    },
+    "Z",
+    "X",
+    "C",
+    "V",
+    "B",
+    "N",
+    "M",
+    {
+      "a": 5
+    },
+    "<\n,",
+    ">\n.",
+    {
+      "c": "#919191",
+      "a": 7,
+      "f": 9
+    },
+    "<i class='fa fa-angle-up'></i>",
+    {
+      "f": 6
+    },
+    "<i class='mss mss-Unicode-DeleteRight-Big-2'></i>"
+  ],
+  [
+    {
+      "w": 1.25
+    },
+    "<i class='kb kb-Hamburger-Menu'></i>",
+    {
+      "w": 1.25
+    },
+    "<i class='mss mss-Unicode-Option-3'></i>",
+    {
+      "w": 1.5
+    },
+    "<i class='mss mss-Unicode-Command-3'></i>",
+    {
+      "f": 5,
+      "w": 2.25
+    },
+    "",
+    {
+      "w": 2
+    },
+    "",
+    {
+      "f": 7,
+      "w": 1.5
+    },
+    "<i class='fa fa-angle-double-up'></i>",
+    {
+      "f": 9
+    },
+    "<i class='fa fa-angle-left'></i>",
+    "<i class='fa fa-angle-down'></i>",
+    "<i class='fa fa-angle-right'></i>"
+  ],
+  [
+    {
+      "x": 2.5,
+      "f": 6,
+      "w": 1.25
+    },
+    "<i class='mss mss-Unicode-Command-3'></i>",
+    {
+      "f": 5,
+      "w": 2.25
+    },
+    "",
+    {
+      "w": 2.25
+    },
+    "",
+    {
+      "x": 1.5,
+      "f": 6,
+      "w": 1.5
+    },
+    "<i class='kb kb-Hamburger-Menu'></i>",
+    {
+      "w": 1.5
+    },
+    "<i class='mss mss-Unicode-Command-3'></i>"
+  ],
+  [
+    {
+      "x": 2.5
+    },
+    "<i class='mss mss-Unicode-Command-3'></i>",
+    {
+      "f": 5,
+      "w": 6.25
+    },
+    ""
+  ]
+]
