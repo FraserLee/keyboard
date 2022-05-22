@@ -1,2 +1,4 @@
 ramen/ramen.blend filter=lfs diff=lfs merge=lfs -text
 ramen/assets/studio_small_05_16k.hdr filter=lfs diff=lfs merge=lfs -text
+stag/blender/stag.blend filter=lfs diff=lfs merge=lfs -text
+shared[[:space:]]assets/studio_small_05_16k.hdr filter=lfs diff=lfs merge=lfs -text
