@@ -1,3 +1,6 @@
 [submodule "stag/stag42"]
 	path = stag/public-repo
 	url = https://github.com/FraserLee/stag42
+[submodule "stag/stag42-pcb"]
+	path = stag/stag42-pcb
+	url = https://github.com/FraserLee/stag42-pcb
