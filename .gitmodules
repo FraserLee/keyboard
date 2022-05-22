@@ -1,0 +1,3 @@
+[submodule "stag/stag42"]
+	path = stag/public-repo
+	url = https://github.com/FraserLee/stag42
