@@ -40,6 +40,7 @@ All rights reserved.
 <body ng-controller="kbCtrl"
       ng-mouseup="selectRelease($event)"
       ng-mousemove="selectMove($event)"
+      ng-attr-style="background-color:{{keyboard.meta.backcolor}};"
       ui-keydown="{'shift-191' : 'showHelp($event)',
                   112 : 'showHelp($event)',
                   118 : 'showOptions($event)',
@@ -85,7 +86,7 @@ All rights reserved.
      ngf-drop="true" ngf-change="uploadJson($files, $event)" ngf-drag-over-class="drag-over">
 
     <div id='keyboard-bg'
-         ng-attr-style="height:{{kbHeight}}px; width:{{kbWidth}}px; background-color:{{keyboard.meta.backcolor}}; border-radius: {{keyboard.meta.radii || '6px'}}; {{keyboard.meta.background.style}}">
+         ng-attr-style="height:{{kbHeight}}px; width:{{kbWidth}}px; border-radius: {{keyboard.meta.radii || '6px'}}; {{keyboard.meta.background.style}}">
       <div ng-repeat="key in keys()"
          class="key {{key.profile}}"
          ng-mouseover="hoveredKey=key"
