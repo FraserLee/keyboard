@@ -2,9 +2,6 @@
 mongoose.conf
 mongoose*.exe
 
-# Private data
-fonts/EngraversGothic-Regular-webfont.*
-
 # Per-user stuff
 *.sublime-workspace
 
@@ -12,11 +9,6 @@ fonts/EngraversGothic-Regular-webfont.*
 node_modules/
 npm-debug.log
 bower_components/
-
-# Generated files
-js/*
-css/*
-fonts/*
 
 # Backup/temporary files
 *~

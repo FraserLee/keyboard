@@ -3,7 +3,7 @@
 # pip install selenium
 # brew install chromedriver (or whatever's up on your system)
 
-SCALE = 0.3# 4.0
+SCALE = 4.0
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -22,10 +22,10 @@ driver.get('file://' + os.path.dirname(os.path.realpath(__file__)) + '/kle/kb.ht
 
 time.sleep(3)
 
-#  root = driver.find_element(by=c.by.By.TAG_NAME, value='body')
+kb_div = driver.find_element(by=c.by.By.ID, value='keyboard')
+print(kb_div.size)
 
 # zoom in
-#  driver.execute_script("document.body.style.zoom='40%'")
 driver.execute_script(f'document.body.style.zoom = {SCALE};')
 
 with open('layers.json', 'r') as f:
