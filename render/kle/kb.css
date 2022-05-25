@@ -37,7 +37,6 @@ webfont('volkswagen_serialregular', 'Volkswagen_Serial-Regular-webfont');
 
 /* Basic style */
 html, body {
-  height: 100%;
   font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
   /* Prevent highlighting/selecting text */
   -webkit-touch-callout: none;
@@ -46,6 +45,8 @@ html, body {
   -ms-user-select: none;
   user-select: none;
   cursor: default;
+  overflow: hidden;
+
 }
 .body { margin: 10px; }
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
